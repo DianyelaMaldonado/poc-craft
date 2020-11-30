@@ -4,10 +4,10 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ siteName }}</title>
-        <link rel="stylesheet" href="{{ siteUrl}}assets/css/main.css"> 
+        <link rel="stylesheet" href="{{ siteUrl}}assets/css/main.css">
+        <script src="https://use.fontawesome.com/15c81c71f9.js"></script>
     </head>
     <body>
-
         <nav>
             <div class="nav__container help__cont90">
                 <div class="flex-jc-ev">
@@ -41,16 +41,11 @@
             </div>
         </nav>
             
-    
             <div class="content-column">
                 {% block content %}
                     {# {% busca los templates que yo le específique a mis secciones %} #}
                 {% endblock %}
             </div>
-
-            {# <footer class="footer">
-                <p>&copy; Copyright 2020 Games Inc. All rights reserved.</p>
-            </footer> #}
 
              <script src="web/assets/js/main.js"></script>
 
