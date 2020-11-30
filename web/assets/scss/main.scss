@@ -27,9 +27,10 @@ sans-serif;
 @import 'partials/reseter';
 @import 'partials/helpers';
 @import 'partials/helpersflex';
-@import 'partials/grid.scss';
-@import 'vendor/effects.scss';
+@import 'partials/grid';
+@import 'vendor/effects';
 @import 'modules/navigation';
+@import 'modules/search';
 
 body {
     font-display: swap;

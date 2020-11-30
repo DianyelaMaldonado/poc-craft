@@ -1,0 +1,30 @@
+{% extends "index" %}
+
+{% block content %}
+      <section class="search__all-content">
+        <div class="search__container  help__cont80">
+            <div class="flex-jc-ev">
+                <div class="search__info help-w60">
+                    <h4 class="search__text help__fw-b">{{ entry.subtitle }}</h4>
+                    <div class="search__title">
+                        {{ entry.richText }}
+                    </div>
+                    <div class="search__fields">
+                        <label for="field to search keyword, job title or company"></label>
+                        <input type="text" class="searh__rounded" placeholder="Keyword, job title or company"
+                            aria-label="Keyword, job title or company">
+                        <button type="submit" class="search__button"
+                            aria-label="text field to search keyword, job title or company">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="search__avatar help-w40">
+                    <fragment>
+                        <img src="assets/img/avatar.png" alt="Image of people ilustartion" class="search__img">
+                    </fragment>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
