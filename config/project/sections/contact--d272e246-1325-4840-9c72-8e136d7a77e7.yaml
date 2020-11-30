@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: contact
+name: Contact
+propagationMethod: all
+siteSettings:
+  a00bf94e-219f-4bdf-b1c0-6243a67d730d:
+    enabledByDefault: true
+    hasUrls: true
+    template: general
+    uriFormat: contact
+type: single

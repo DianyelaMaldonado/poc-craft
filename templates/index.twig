@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ siteName }}</title>
+        <link rel="stylesheet" href="{{ siteUrl}}assets/css/main.css"> 
+    </head>
+    <body>
+
+        <nav>
+            <div class="nav__container help__cont90">
+                <div class="flex-jc-ev">
+                    <div class="nav__logo">
+                        <fragment>
+                        <a href="{{ siteUrl }}" class="logo">
+                            <img src="{{siteUrl}}assets/img/logo.png" alt="Image of logo puzzle" class="nav__logo-puzzle"></img>
+                        </a>
+                        </fragment>
+                    </div>
+                    <div class="nav__menu flex-jc-sb">
+                        <div class="nav__menu-list help-w60">
+                            <ul class="nav__m-l">
+                                <li><a class="nav_ml-a help__fw-b hvr-underline-from-center" href="#">HOME</a></li>
+                                <li><a class="nav_ml-a help__fw-b hvr-underline-from-center" href="#">ABOUT US</a>
+                                </li>
+                                <li><a class="nav_ml-a help__fw-b hvr-underline-from-center" href="#">BLOG</a></li>
+                                <li><a class="nav_ml-a help__fw-b hvr-underline-from-center" href="#">HOW IT
+                                        WORKS?</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav__in-out help-w40">
+                            <ul>
+                                <li><a class="nav_ml-a help__fw-b nav_bl hvr-underline-from-center" href="#">LOG
+                                        IN</a></li>
+                                <li><a class="nav_ml-a help__fw-b nav__round hvr-sweep-to-right" href="#">SIGN UP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+            
+    
+            <div class="content-column">
+                {% block content %}
+                    {# {% busca los templates que yo le específique a mis secciones %} #}
+                {% endblock %}
+            </div>
+
+            {# <footer class="footer">
+                <p>&copy; Copyright 2020 Games Inc. All rights reserved.</p>
+            </footer> #}
+
+             <script src="web/assets/js/main.js"></script>
+
+    </body>
+</html>

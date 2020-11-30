@@ -1,0 +1,85 @@
+.nav__container {
+    margin-top: 2rem;
+}
+
+.nav__menu {
+    width: 60%;
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        width: 80%;
+    }
+}
+
+.nav__logo {
+    width: 40%;
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        width: 20%;
+    }
+}
+
+.nav__logo-puzzle {
+    max-width: 43px;
+    animation: latir infinite 3s linear;
+}
+
+.nav__m-l {
+    @media only screen and (max-width: 767px) {
+        display: none;
+    }
+}
+
+.nav__m-l {
+    li {
+        padding: 0 2rem;
+        display: inline-block;
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            padding: 0 1rem;
+            display: inline-block;
+        }
+    }
+}
+
+.nav__in-out {
+    li {
+        display: inline-block;
+    }
+}
+
+a.nav_ml-a {
+    color: $white;
+    text-decoration: none;
+}
+
+.nav__round {
+    margin-left: 0%;
+    padding: 15px 25px;
+    border-radius: 28px;
+    background: $highlighted-blue;
+    margin-right: 1em;
+}
+
+.nav_bl {
+    margin-right: 20px;
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        margin-right: 10px;
+    }
+}
+
+.nav__menu-list {
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        width: 70%;
+    }
+}
+
+.nav__in-out {
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        width: 30%;
+    }
+
+    @media only screen and (max-width: 767px) {
+        display: none;
+    }
+}

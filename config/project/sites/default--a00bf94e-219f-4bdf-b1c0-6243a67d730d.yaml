@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: 'Local Craft'
+primary: true
+siteGroup: 471f301c-2305-488d-96e5-11591cffe635
+sortOrder: 1
