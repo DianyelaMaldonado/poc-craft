@@ -29,8 +29,10 @@ sans-serif;
 @import 'partials/helpersflex';
 @import 'partials/grid';
 @import 'vendor/effects';
+@import 'vendor/slider';
 @import 'modules/navigation';
 @import 'modules/search';
+
 
 body {
     font-display: swap;

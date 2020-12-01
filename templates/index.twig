@@ -40,14 +40,14 @@
                 </div>
             </div>
         </nav>
-            
-            <div class="content-column">
-                {% block content %}
-                    {# {% busca los templates que yo le específique a mis secciones %} #}
-                {% endblock %}
-            </div>
+            {# {% redirect url('templates/search') %} #}
+        <div class="content-column">
+            {% block content %}
+                {# {% busca los templates que yo le específique a mis secciones %} #}
+            {% endblock %}
+        </div>
 
-             <script src="web/assets/js/main.js"></script>
+        <script src="web/assets/js/main.js"></script>
 
     </body>
 </html>

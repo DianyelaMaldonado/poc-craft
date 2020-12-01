@@ -1,0 +1,19 @@
+contentColumnType: integer(10)
+fieldGroup: f7dc57af-b6c9-47b0-841c-e83cc03864ca
+handle: salary
+instructions: ''
+name: Salary
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: '0'
+  prefix: $
+  previewCurrency: USD
+  previewFormat: currency
+  size: null
+  suffix: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number
